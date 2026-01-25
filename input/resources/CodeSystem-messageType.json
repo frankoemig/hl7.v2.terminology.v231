@@ -1,0 +1,1962 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "messageType",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-messageType.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/messageType</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.3.1"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0076"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/messageType",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.30"
+  } ],
+  "version": "1.3.0",
+  "name": "MessageType",
+  "title": "Message Type (2.3.1 - 1.3.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7-defined code system of concepts which specify message types.  Used in HL7 Version 2.x messaging in the MSH segment.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  }, {
+    "code": "chapter",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#chapter",
+    "description": "chapter",
+    "type": "string"
+  }, {
+    "extension": [ {
+      "url": "http://hl7.org/fhir/StructureDefinition/codesystem-property-valueset",
+      "valueCanonical": "http://terminology.hl7.org/v2plusvocab/ValueSet/hl7VShl7VSevent"
+    } ],
+    "code": "event",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#event",
+    "description": "event",
+    "type": "code"
+  } ],
+  "concept": [ {
+    "code": "ACK",
+    "display": "General acknowledgment message",
+    "definition": "General acknowledgment message",
+    "designation": [ {
+      "language": "de",
+      "value": "Empfangsbestätigung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "event",
+      "valueCode": "A01"
+    }, {
+      "code": "event",
+      "valueCode": "A02"
+    }, {
+      "code": "event",
+      "valueCode": "A03"
+    }, {
+      "code": "event",
+      "valueCode": "A04"
+    }, {
+      "code": "event",
+      "valueCode": "A05"
+    }, {
+      "code": "event",
+      "valueCode": "A06"
+    }, {
+      "code": "event",
+      "valueCode": "A07"
+    }, {
+      "code": "event",
+      "valueCode": "A08"
+    }, {
+      "code": "event",
+      "valueCode": "A09"
+    }, {
+      "code": "event",
+      "valueCode": "A10"
+    }, {
+      "code": "event",
+      "valueCode": "A11"
+    }, {
+      "code": "event",
+      "valueCode": "A12"
+    }, {
+      "code": "event",
+      "valueCode": "A13"
+    }, {
+      "code": "event",
+      "valueCode": "A14"
+    }, {
+      "code": "event",
+      "valueCode": "A15"
+    }, {
+      "code": "event",
+      "valueCode": "A16"
+    }, {
+      "code": "event",
+      "valueCode": "A17"
+    }, {
+      "code": "event",
+      "valueCode": "A18"
+    }, {
+      "code": "event",
+      "valueCode": "A20"
+    }, {
+      "code": "event",
+      "valueCode": "A21"
+    }, {
+      "code": "event",
+      "valueCode": "A22"
+    }, {
+      "code": "event",
+      "valueCode": "A23"
+    }, {
+      "code": "event",
+      "valueCode": "A24"
+    }, {
+      "code": "event",
+      "valueCode": "A25"
+    }, {
+      "code": "event",
+      "valueCode": "A26"
+    }, {
+      "code": "event",
+      "valueCode": "A27"
+    }, {
+      "code": "event",
+      "valueCode": "A28"
+    }, {
+      "code": "event",
+      "valueCode": "A29"
+    }, {
+      "code": "event",
+      "valueCode": "A30"
+    }, {
+      "code": "event",
+      "valueCode": "A31"
+    }, {
+      "code": "event",
+      "valueCode": "A32"
+    }, {
+      "code": "event",
+      "valueCode": "A33"
+    }, {
+      "code": "event",
+      "valueCode": "A34"
+    }, {
+      "code": "event",
+      "valueCode": "A35"
+    }, {
+      "code": "event",
+      "valueCode": "A36"
+    }, {
+      "code": "event",
+      "valueCode": "A37"
+    }, {
+      "code": "event",
+      "valueCode": "A38"
+    }, {
+      "code": "event",
+      "valueCode": "A39"
+    }, {
+      "code": "event",
+      "valueCode": "A40"
+    }, {
+      "code": "event",
+      "valueCode": "A41"
+    }, {
+      "code": "event",
+      "valueCode": "A42"
+    }, {
+      "code": "event",
+      "valueCode": "A43"
+    }, {
+      "code": "event",
+      "valueCode": "A44"
+    }, {
+      "code": "event",
+      "valueCode": "A45"
+    }, {
+      "code": "event",
+      "valueCode": "A46"
+    }, {
+      "code": "event",
+      "valueCode": "A47"
+    }, {
+      "code": "event",
+      "valueCode": "A48"
+    }, {
+      "code": "event",
+      "valueCode": "A49"
+    }, {
+      "code": "event",
+      "valueCode": "A50"
+    }, {
+      "code": "event",
+      "valueCode": "A51"
+    }, {
+      "code": "event",
+      "valueCode": "I07"
+    }, {
+      "code": "event",
+      "valueCode": "N02"
+    }, {
+      "code": "event",
+      "valueCode": "P01"
+    }, {
+      "code": "event",
+      "valueCode": "P02"
+    }, {
+      "code": "event",
+      "valueCode": "P03"
+    }, {
+      "code": "event",
+      "valueCode": "P05"
+    }, {
+      "code": "event",
+      "valueCode": "P06"
+    }, {
+      "code": "event",
+      "valueCode": "PC1"
+    }, {
+      "code": "event",
+      "valueCode": "PC2"
+    }, {
+      "code": "event",
+      "valueCode": "PC3"
+    }, {
+      "code": "event",
+      "valueCode": "PC4"
+    }, {
+      "code": "event",
+      "valueCode": "PC5"
+    }, {
+      "code": "event",
+      "valueCode": "PC6"
+    }, {
+      "code": "event",
+      "valueCode": "PC7"
+    }, {
+      "code": "event",
+      "valueCode": "PC8"
+    }, {
+      "code": "event",
+      "valueCode": "PC9"
+    }, {
+      "code": "event",
+      "valueCode": "PCA"
+    }, {
+      "code": "event",
+      "valueCode": "PCB"
+    }, {
+      "code": "event",
+      "valueCode": "PCC"
+    }, {
+      "code": "event",
+      "valueCode": "PCD"
+    }, {
+      "code": "event",
+      "valueCode": "PCE"
+    }, {
+      "code": "event",
+      "valueCode": "PCF"
+    }, {
+      "code": "event",
+      "valueCode": "PCG"
+    }, {
+      "code": "event",
+      "valueCode": "PCH"
+    }, {
+      "code": "event",
+      "valueCode": "PCJ"
+    }, {
+      "code": "event",
+      "valueCode": "PCK"
+    }, {
+      "code": "event",
+      "valueCode": "PCL"
+    }, {
+      "code": "event",
+      "valueCode": "Q03"
+    }, {
+      "code": "event",
+      "valueCode": "Q05"
+    }, {
+      "code": "event",
+      "valueCode": "R01"
+    }, {
+      "code": "event",
+      "valueCode": "S12"
+    }, {
+      "code": "event",
+      "valueCode": "S13"
+    }, {
+      "code": "event",
+      "valueCode": "S14"
+    }, {
+      "code": "event",
+      "valueCode": "S15"
+    }, {
+      "code": "event",
+      "valueCode": "S16"
+    }, {
+      "code": "event",
+      "valueCode": "S17"
+    }, {
+      "code": "event",
+      "valueCode": "S18"
+    }, {
+      "code": "event",
+      "valueCode": "S19"
+    }, {
+      "code": "event",
+      "valueCode": "S20"
+    }, {
+      "code": "event",
+      "valueCode": "S21"
+    }, {
+      "code": "event",
+      "valueCode": "S22"
+    }, {
+      "code": "event",
+      "valueCode": "S23"
+    }, {
+      "code": "event",
+      "valueCode": "S24"
+    }, {
+      "code": "event",
+      "valueCode": "S26"
+    }, {
+      "code": "event",
+      "valueCode": "T01"
+    }, {
+      "code": "event",
+      "valueCode": "T02"
+    }, {
+      "code": "event",
+      "valueCode": "T03"
+    }, {
+      "code": "event",
+      "valueCode": "T04"
+    }, {
+      "code": "event",
+      "valueCode": "T05"
+    }, {
+      "code": "event",
+      "valueCode": "T06"
+    }, {
+      "code": "event",
+      "valueCode": "T07"
+    }, {
+      "code": "event",
+      "valueCode": "T08"
+    }, {
+      "code": "event",
+      "valueCode": "T09"
+    }, {
+      "code": "event",
+      "valueCode": "T10"
+    }, {
+      "code": "event",
+      "valueCode": "T11"
+    } ]
+  }, {
+    "code": "ADR",
+    "display": "ADT response",
+    "definition": "ADT response",
+    "designation": [ {
+      "language": "de",
+      "value": "Antwort auf Anfrage bezüglich Aufnahme / Verlegung / Entlassung von Patienten"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "event",
+      "valueCode": "A19"
+    } ]
+  }, {
+    "code": "ADT",
+    "display": "ADT message",
+    "definition": "ADT message",
+    "designation": [ {
+      "language": "de",
+      "value": "Aufnahme / Entlassung / Verlegung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "event",
+      "valueCode": "A01"
+    }, {
+      "code": "event",
+      "valueCode": "A02"
+    }, {
+      "code": "event",
+      "valueCode": "A03"
+    }, {
+      "code": "event",
+      "valueCode": "A04"
+    }, {
+      "code": "event",
+      "valueCode": "A05"
+    }, {
+      "code": "event",
+      "valueCode": "A06"
+    }, {
+      "code": "event",
+      "valueCode": "A07"
+    }, {
+      "code": "event",
+      "valueCode": "A08"
+    }, {
+      "code": "event",
+      "valueCode": "A09"
+    }, {
+      "code": "event",
+      "valueCode": "A10"
+    }, {
+      "code": "event",
+      "valueCode": "A11"
+    }, {
+      "code": "event",
+      "valueCode": "A12"
+    }, {
+      "code": "event",
+      "valueCode": "A13"
+    }, {
+      "code": "event",
+      "valueCode": "A14"
+    }, {
+      "code": "event",
+      "valueCode": "A15"
+    }, {
+      "code": "event",
+      "valueCode": "A16"
+    }, {
+      "code": "event",
+      "valueCode": "A17"
+    }, {
+      "code": "event",
+      "valueCode": "A18"
+    }, {
+      "code": "event",
+      "valueCode": "A20"
+    }, {
+      "code": "event",
+      "valueCode": "A21"
+    }, {
+      "code": "event",
+      "valueCode": "A22"
+    }, {
+      "code": "event",
+      "valueCode": "A23"
+    }, {
+      "code": "event",
+      "valueCode": "A24"
+    }, {
+      "code": "event",
+      "valueCode": "A25"
+    }, {
+      "code": "event",
+      "valueCode": "A26"
+    }, {
+      "code": "event",
+      "valueCode": "A27"
+    }, {
+      "code": "event",
+      "valueCode": "A28"
+    }, {
+      "code": "event",
+      "valueCode": "A29"
+    }, {
+      "code": "event",
+      "valueCode": "A30"
+    }, {
+      "code": "event",
+      "valueCode": "A31"
+    }, {
+      "code": "event",
+      "valueCode": "A32"
+    }, {
+      "code": "event",
+      "valueCode": "A33"
+    }, {
+      "code": "event",
+      "valueCode": "A34"
+    }, {
+      "code": "event",
+      "valueCode": "A35"
+    }, {
+      "code": "event",
+      "valueCode": "A36"
+    }, {
+      "code": "event",
+      "valueCode": "A37"
+    }, {
+      "code": "event",
+      "valueCode": "A38"
+    }, {
+      "code": "event",
+      "valueCode": "A39"
+    }, {
+      "code": "event",
+      "valueCode": "A40"
+    }, {
+      "code": "event",
+      "valueCode": "A41"
+    }, {
+      "code": "event",
+      "valueCode": "A42"
+    }, {
+      "code": "event",
+      "valueCode": "A43"
+    }, {
+      "code": "event",
+      "valueCode": "A44"
+    }, {
+      "code": "event",
+      "valueCode": "A45"
+    }, {
+      "code": "event",
+      "valueCode": "A46"
+    }, {
+      "code": "event",
+      "valueCode": "A47"
+    }, {
+      "code": "event",
+      "valueCode": "A48"
+    }, {
+      "code": "event",
+      "valueCode": "A49"
+    }, {
+      "code": "event",
+      "valueCode": "A50"
+    }, {
+      "code": "event",
+      "valueCode": "A51"
+    } ]
+  }, {
+    "code": "BAR",
+    "display": "Add/change billing account",
+    "definition": "Add/change billing account",
+    "designation": [ {
+      "language": "de",
+      "value": "Hinzufügen / Ändern von Abrechnungsdaten"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "event",
+      "valueCode": "P01"
+    }, {
+      "code": "event",
+      "valueCode": "P02"
+    }, {
+      "code": "event",
+      "valueCode": "P05"
+    }, {
+      "code": "event",
+      "valueCode": "P06"
+    } ]
+  }, {
+    "code": "CNQ",
+    "display": "Cancel query",
+    "definition": "Cancel query",
+    "designation": [ {
+      "language": "de",
+      "value": "Stornierung der Anfrage"
+    } ],
+    "property": [ {
+      "code": "status",
+      "valueCode": "inactive"
+    }, {
+      "code": "modified",
+      "valueDateTime": "2024-10-21"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "CRM",
+    "display": "Clinical study registration",
+    "definition": "Clinical study registration",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    }, {
+      "code": "event",
+      "valueCode": "C01"
+    }, {
+      "code": "event",
+      "valueCode": "C02"
+    }, {
+      "code": "event",
+      "valueCode": "C03"
+    }, {
+      "code": "event",
+      "valueCode": "C04"
+    }, {
+      "code": "event",
+      "valueCode": "C05"
+    }, {
+      "code": "event",
+      "valueCode": "C06"
+    }, {
+      "code": "event",
+      "valueCode": "C07"
+    }, {
+      "code": "event",
+      "valueCode": "C08"
+    } ]
+  }, {
+    "code": "CSU",
+    "display": "Unsolicited clinical study data",
+    "definition": "Unsolicited clinical study data",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "C09"
+    }, {
+      "code": "event",
+      "valueCode": "C10"
+    }, {
+      "code": "event",
+      "valueCode": "C11"
+    }, {
+      "code": "event",
+      "valueCode": "C12"
+    } ]
+  }, {
+    "code": "DFT",
+    "display": "Detail financial transaction",
+    "definition": "Detail financial transaction",
+    "designation": [ {
+      "language": "de",
+      "value": "Einzelbuchung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "event",
+      "valueCode": "P03"
+    } ]
+  }, {
+    "code": "DOC",
+    "display": "Document response",
+    "definition": "Document query",
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2015-08-21"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "T12"
+    } ]
+  }, {
+    "code": "DSR",
+    "display": "Display response",
+    "definition": "Display response",
+    "designation": [ {
+      "language": "de",
+      "value": "Antwort im Anzeigeformat"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "event",
+      "valueCode": "P04"
+    }, {
+      "code": "event",
+      "valueCode": "Q01"
+    }, {
+      "code": "event",
+      "valueCode": "Q03"
+    } ]
+  }, {
+    "code": "EDR",
+    "display": "Enhanced display response",
+    "definition": "Enhanced display response",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "R07"
+    } ]
+  }, {
+    "code": "EQQ",
+    "display": "Embedded query language query",
+    "definition": "Embedded query language query",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "Q04"
+    } ]
+  }, {
+    "code": "ERP",
+    "display": "Event replay response",
+    "definition": "Event replay response",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "R09"
+    } ]
+  }, {
+    "code": "ERQ",
+    "display": "Event replay query",
+    "definition": "Event replay query",
+    "property": [ {
+      "code": "status",
+      "valueCode": "inactive"
+    }, {
+      "code": "modified",
+      "valueDateTime": "2024-10-21"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "MCF",
+    "display": "Delayed acknowledgment",
+    "definition": "Delayed acknowledgment",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "MDM",
+    "display": "Documentation message",
+    "definition": "Documentation message",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "T01"
+    }, {
+      "code": "event",
+      "valueCode": "T02"
+    }, {
+      "code": "event",
+      "valueCode": "T03"
+    }, {
+      "code": "event",
+      "valueCode": "T04"
+    }, {
+      "code": "event",
+      "valueCode": "T05"
+    }, {
+      "code": "event",
+      "valueCode": "T06"
+    }, {
+      "code": "event",
+      "valueCode": "T07"
+    }, {
+      "code": "event",
+      "valueCode": "T08"
+    }, {
+      "code": "event",
+      "valueCode": "T09"
+    }, {
+      "code": "event",
+      "valueCode": "T10"
+    }, {
+      "code": "event",
+      "valueCode": "T11"
+    } ]
+  }, {
+    "code": "MFD",
+    "display": "Master files delayed application acknowledgment",
+    "definition": "Master files delayed application acknowledgment",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "MFK",
+    "display": "Master files application acknowledgment",
+    "definition": "Master files application acknowledgment",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "event",
+      "valueCode": "M01"
+    }, {
+      "code": "event",
+      "valueCode": "M02"
+    }, {
+      "code": "event",
+      "valueCode": "M03"
+    }, {
+      "code": "event",
+      "valueCode": "M04"
+    }, {
+      "code": "event",
+      "valueCode": "M05"
+    }, {
+      "code": "event",
+      "valueCode": "M06"
+    }, {
+      "code": "event",
+      "valueCode": "M07"
+    }, {
+      "code": "event",
+      "valueCode": "M08"
+    }, {
+      "code": "event",
+      "valueCode": "M09"
+    }, {
+      "code": "event",
+      "valueCode": "M10"
+    }, {
+      "code": "event",
+      "valueCode": "M11"
+    } ]
+  }, {
+    "code": "MFN",
+    "display": "Master files notification",
+    "definition": "Master files notification",
+    "designation": [ {
+      "language": "de",
+      "value": "Stammdateiänderung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "event",
+      "valueCode": "M01"
+    }, {
+      "code": "event",
+      "valueCode": "M02"
+    }, {
+      "code": "event",
+      "valueCode": "M03"
+    }, {
+      "code": "event",
+      "valueCode": "M04"
+    }, {
+      "code": "event",
+      "valueCode": "M05"
+    }, {
+      "code": "event",
+      "valueCode": "M06"
+    }, {
+      "code": "event",
+      "valueCode": "M07"
+    }, {
+      "code": "event",
+      "valueCode": "M08"
+    }, {
+      "code": "event",
+      "valueCode": "M09"
+    }, {
+      "code": "event",
+      "valueCode": "M10"
+    }, {
+      "code": "event",
+      "valueCode": "M11"
+    } ]
+  }, {
+    "code": "MFQ",
+    "display": "Master files query",
+    "definition": "Master files query",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "M01"
+    }, {
+      "code": "event",
+      "valueCode": "M02"
+    }, {
+      "code": "event",
+      "valueCode": "M03"
+    }, {
+      "code": "event",
+      "valueCode": "M04"
+    }, {
+      "code": "event",
+      "valueCode": "M05"
+    }, {
+      "code": "event",
+      "valueCode": "M06"
+    } ]
+  }, {
+    "code": "MFR",
+    "display": "Master files query response",
+    "definition": "Master files query response",
+    "designation": [ {
+      "language": "de",
+      "value": "Antwort auf Stammdateianfrage"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "event",
+      "valueCode": "M01"
+    }, {
+      "code": "event",
+      "valueCode": "M02"
+    }, {
+      "code": "event",
+      "valueCode": "M03"
+    }, {
+      "code": "event",
+      "valueCode": "M04"
+    }, {
+      "code": "event",
+      "valueCode": "M05"
+    }, {
+      "code": "event",
+      "valueCode": "M06"
+    } ]
+  }, {
+    "code": "NMD",
+    "display": "Network management data",
+    "definition": "Network management data",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "event",
+      "valueCode": "N02"
+    } ]
+  }, {
+    "code": "NMQ",
+    "display": "Network management query",
+    "definition": "Network management query",
+    "designation": [ {
+      "language": "de",
+      "value": "Anfrage / Kommando an ein anderes System im Netz"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "event",
+      "valueCode": "N01"
+    } ]
+  }, {
+    "code": "NMR",
+    "display": "Network management response",
+    "definition": "Network management response",
+    "designation": [ {
+      "language": "de",
+      "value": "Antwort auf Anfrage / Kommando"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "event",
+      "valueCode": "N01"
+    } ]
+  }, {
+    "code": "ORF",
+    "display": "Observ. result/record response",
+    "definition": "Observ. result/record response",
+    "designation": [ {
+      "language": "de",
+      "value": "Untersuchungsergebnisse"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "event",
+      "valueCode": "R04"
+    } ]
+  }, {
+    "code": "ORM",
+    "display": "Order message",
+    "definition": "Order message",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftrag / Verordnung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "event",
+      "valueCode": "O01"
+    } ]
+  }, {
+    "code": "ORR",
+    "display": "Order acknowledgment message",
+    "definition": "Order acknowledgment message",
+    "designation": [ {
+      "language": "de",
+      "value": "Empfangsbestätigung von der Anwendung für einen Auftrag"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "event",
+      "valueCode": "O02"
+    } ]
+  }, {
+    "code": "ORU",
+    "display": "Observ result/unsolicited",
+    "definition": "Observ result/unsolicited",
+    "designation": [ {
+      "language": "de",
+      "value": "Nicht angeforderte Untersuchungsergebnisse"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "event",
+      "valueCode": "R01"
+    } ]
+  }, {
+    "code": "OSQ",
+    "display": "Order status query",
+    "definition": "Order status query",
+    "designation": [ {
+      "language": "de",
+      "value": "Anfrage nach Auftragsstatus"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "event",
+      "valueCode": "Q06"
+    } ]
+  }, {
+    "code": "OSR",
+    "display": "Order status response",
+    "definition": "Order status response",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "Q06"
+    } ]
+  }, {
+    "code": "PEX",
+    "display": "Product experience",
+    "definition": "Product experience",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "P07"
+    }, {
+      "code": "event",
+      "valueCode": "P08"
+    } ]
+  }, {
+    "code": "PGL",
+    "display": "Patient goal",
+    "definition": "Patient goal",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "PC6"
+    }, {
+      "code": "event",
+      "valueCode": "PC7"
+    }, {
+      "code": "event",
+      "valueCode": "PC8"
+    } ]
+  }, {
+    "code": "PIN",
+    "display": "Patient insurance information",
+    "definition": "Patient insurance information",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "I07"
+    } ]
+  }, {
+    "code": "PPG",
+    "display": "Patient pathway (goal-oriented) message",
+    "definition": "Patient pathway (goal-oriented) message",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "PCG"
+    }, {
+      "code": "event",
+      "valueCode": "PCH"
+    }, {
+      "code": "event",
+      "valueCode": "PCJ"
+    } ]
+  }, {
+    "code": "PPP",
+    "display": "Patient pathway (problem-oriented) message",
+    "definition": "Patient pathway (problem-oriented) message",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    }, {
+      "code": "event",
+      "valueCode": "PCB"
+    }, {
+      "code": "event",
+      "valueCode": "PCC"
+    }, {
+      "code": "event",
+      "valueCode": "PCD"
+    } ]
+  }, {
+    "code": "PPR",
+    "display": "Patient problem",
+    "definition": "Patient problem",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "PC1"
+    }, {
+      "code": "event",
+      "valueCode": "PC2"
+    }, {
+      "code": "event",
+      "valueCode": "PC3"
+    } ]
+  }, {
+    "code": "PPT",
+    "display": "Patient pathway (goal oriented) response",
+    "definition": "Patient pathway (goal oriented) response",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "PCL"
+    } ]
+  }, {
+    "code": "PPV",
+    "display": "Patient goal response",
+    "definition": "Patient goal response",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "PCA"
+    } ]
+  }, {
+    "code": "PRR",
+    "display": "Patient problem response",
+    "definition": "Patient problem response",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "PC5"
+    } ]
+  }, {
+    "code": "PTR",
+    "display": "Patient pathway (problem-oriented) response",
+    "definition": "Patient pathway (problem-oriented) response",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "PCF"
+    } ]
+  }, {
+    "code": "QCK",
+    "display": "Query general acknowledgment",
+    "definition": "Query general acknowledgment",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "Q02"
+    } ]
+  }, {
+    "code": "QRY",
+    "display": "Query, original mode",
+    "definition": "Query, original mode",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "event",
+      "valueCode": "A19"
+    }, {
+      "code": "event",
+      "valueCode": "P04"
+    }, {
+      "code": "event",
+      "valueCode": "PC4"
+    }, {
+      "code": "event",
+      "valueCode": "PC9"
+    }, {
+      "code": "event",
+      "valueCode": "PCE"
+    }, {
+      "code": "event",
+      "valueCode": "PCK"
+    }, {
+      "code": "event",
+      "valueCode": "Q01"
+    }, {
+      "code": "event",
+      "valueCode": "Q02"
+    }, {
+      "code": "event",
+      "valueCode": "R02"
+    }, {
+      "code": "event",
+      "valueCode": "T12"
+    } ]
+  }, {
+    "code": "RAR",
+    "display": "Pharmacy administration information",
+    "definition": "Pharmacy administration information",
+    "designation": [ {
+      "language": "de",
+      "value": "Antwort auf Anfrage bezüglich Verabreichung von Medikamenten"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "event",
+      "valueCode": "RAR"
+    } ]
+  }, {
+    "code": "RAS",
+    "display": "Pharmacy administration message",
+    "definition": "Pharmacy administration message",
+    "designation": [ {
+      "language": "de",
+      "value": "Erfolgte Verabreichung von Medikamenten"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "event",
+      "valueCode": "O01"
+    } ]
+  }, {
+    "code": "RCI",
+    "display": "Return clinical information",
+    "definition": "Return clinical information",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "I05"
+    } ]
+  }, {
+    "code": "RCL",
+    "display": "Return clinical list",
+    "definition": "Return clinical list",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "I06"
+    } ]
+  }, {
+    "code": "RDE",
+    "display": "Pharmacy encoded order message",
+    "definition": "Pharmacy encoded order message",
+    "designation": [ {
+      "language": "de",
+      "value": "Medikamentenverordnung (Apotheke)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "event",
+      "valueCode": "O01"
+    } ]
+  }, {
+    "code": "RDR",
+    "display": "Pharmacy dispense information",
+    "definition": "Pharmacy dispense information",
+    "designation": [ {
+      "language": "de",
+      "value": "Antwort auf Anfrage bezüglich Abgabe von Medikamenten"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "event",
+      "valueCode": "RDR"
+    } ]
+  }, {
+    "code": "RDS",
+    "display": "Pharmacy dispense message",
+    "definition": "Pharmacy dispense message",
+    "designation": [ {
+      "language": "de",
+      "value": "Abgabe von Medikamenten"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "event",
+      "valueCode": "O01"
+    } ]
+  }, {
+    "code": "REF",
+    "display": "Patient referral",
+    "definition": "Patient referral",
+    "designation": [ {
+      "language": "de",
+      "value": "Überweisung eines Patienten"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "I12"
+    }, {
+      "code": "event",
+      "valueCode": "I13"
+    }, {
+      "code": "event",
+      "valueCode": "I14"
+    }, {
+      "code": "event",
+      "valueCode": "I15"
+    } ]
+  }, {
+    "code": "RER",
+    "display": "Pharmacy encoded order information",
+    "definition": "Pharmacy encoded order information",
+    "designation": [ {
+      "language": "de",
+      "value": "Antwort auf Anfrage bezüglich Medikamentenverordnung (Apotheke)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "event",
+      "valueCode": "RER"
+    } ]
+  }, {
+    "code": "RGR",
+    "display": "Pharmacy dose information",
+    "definition": "Pharmacy dose information",
+    "designation": [ {
+      "language": "de",
+      "value": "Antwort auf Anfrage bezüglich Verabreichungsvorschrift für Medikamente"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "event",
+      "valueCode": "RGR"
+    } ]
+  }, {
+    "code": "RGV",
+    "display": "Pharmacy give message",
+    "definition": "Pharmacy give message",
+    "designation": [ {
+      "language": "de",
+      "value": "Verabreichungsvorschrift für Medikamente"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "event",
+      "valueCode": "O01"
+    } ]
+  }, {
+    "code": "ROC",
+    "display": "Request clinical information",
+    "definition": "Request clinical information",
+    "property": [ {
+      "code": "status",
+      "valueCode": "inactive"
+    }, {
+      "code": "modified",
+      "valueDateTime": "2024-10-21"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "ROD",
+    "display": "Request pateint demographics",
+    "definition": "Request pateint demographics",
+    "property": [ {
+      "code": "status",
+      "valueCode": "inactive"
+    }, {
+      "code": "modified",
+      "valueDateTime": "2024-10-21"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "ROR",
+    "display": "Pharmacy prescription order response",
+    "definition": "Pharmacy prescription order response",
+    "designation": [ {
+      "language": "de",
+      "value": "Antwort auf Anfrage bezüglich Medikamentenverordnung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "event",
+      "valueCode": "R0R"
+    } ]
+  }, {
+    "code": "RPA",
+    "display": "Return patient authorization",
+    "definition": "Return patient authorization",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "I08"
+    }, {
+      "code": "event",
+      "valueCode": "I09"
+    }, {
+      "code": "event",
+      "valueCode": "I10"
+    }, {
+      "code": "event",
+      "valueCode": "I11"
+    } ]
+  }, {
+    "code": "RPI",
+    "display": "Return patient information",
+    "definition": "Return patient information",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "I01"
+    }, {
+      "code": "event",
+      "valueCode": "I04"
+    } ]
+  }, {
+    "code": "RPL",
+    "display": "Return patient display list",
+    "definition": "Return patient display list",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "I02"
+    } ]
+  }, {
+    "code": "RPR",
+    "display": "Return patient list",
+    "definition": "Return patient list",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "I03"
+    } ]
+  }, {
+    "code": "RQA",
+    "display": "Request patient authorization",
+    "definition": "Request patient authorization",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "I08"
+    }, {
+      "code": "event",
+      "valueCode": "I09"
+    }, {
+      "code": "event",
+      "valueCode": "I10"
+    }, {
+      "code": "event",
+      "valueCode": "I11"
+    } ]
+  }, {
+    "code": "RQC",
+    "display": "Request clinical information",
+    "definition": "Request clinical information",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "I05"
+    }, {
+      "code": "event",
+      "valueCode": "I06"
+    } ]
+  }, {
+    "code": "RQI",
+    "display": "Request patient information",
+    "definition": "Request patient information",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "I01"
+    }, {
+      "code": "event",
+      "valueCode": "I02"
+    }, {
+      "code": "event",
+      "valueCode": "I03"
+    } ]
+  }, {
+    "code": "RQP",
+    "display": "Request patient demographics",
+    "definition": "Request patient demographics",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "I04"
+    } ]
+  }, {
+    "code": "RQQ",
+    "display": "Event replay query",
+    "definition": "Event replay query",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    }, {
+      "code": "event",
+      "valueCode": "Q09"
+    } ]
+  }, {
+    "code": "RRA",
+    "display": "Pharmacy administration acknowledgment",
+    "definition": "Pharmacy administration acknowledgment",
+    "designation": [ {
+      "language": "de",
+      "value": "Empfangsbestätigung für Verabreichungsmeldung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "event",
+      "valueCode": "O02"
+    } ]
+  }, {
+    "code": "RRD",
+    "display": "Pharmacy dispense acknowledgment",
+    "definition": "Pharmacy dispense acknowledgment",
+    "designation": [ {
+      "language": "de",
+      "value": "Empfangsbestätigung für Abgabemeldung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "event",
+      "valueCode": "O02"
+    } ]
+  }, {
+    "code": "RRE",
+    "display": "Pharmacy encoded order acknowledgment",
+    "definition": "Pharmacy encoded order acknowledgment",
+    "designation": [ {
+      "language": "de",
+      "value": "Empfangsbestätigung für Verordnung (Apotheke)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "event",
+      "valueCode": "O02"
+    } ]
+  }, {
+    "code": "RRG",
+    "display": "Pharmacy give acknowledgment",
+    "definition": "Pharmacy give acknowledgment",
+    "designation": [ {
+      "language": "de",
+      "value": "Empfangsbestätigung für Verabreichungsvorschrift"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    }, {
+      "code": "event",
+      "valueCode": "O02"
+    } ]
+  }, {
+    "code": "RRI",
+    "display": "Return patient referral",
+    "definition": "Return patient referral",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "I12"
+    }, {
+      "code": "event",
+      "valueCode": "I13"
+    }, {
+      "code": "event",
+      "valueCode": "I14"
+    }, {
+      "code": "event",
+      "valueCode": "I15"
+    } ]
+  }, {
+    "code": "SIU",
+    "display": "Schedule information unsolicited",
+    "definition": "Schedule information unsolicited",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "S12"
+    }, {
+      "code": "event",
+      "valueCode": "S13"
+    }, {
+      "code": "event",
+      "valueCode": "S14"
+    }, {
+      "code": "event",
+      "valueCode": "S15"
+    }, {
+      "code": "event",
+      "valueCode": "S16"
+    }, {
+      "code": "event",
+      "valueCode": "S17"
+    }, {
+      "code": "event",
+      "valueCode": "S18"
+    }, {
+      "code": "event",
+      "valueCode": "S19"
+    }, {
+      "code": "event",
+      "valueCode": "S20"
+    }, {
+      "code": "event",
+      "valueCode": "S21"
+    }, {
+      "code": "event",
+      "valueCode": "S22"
+    }, {
+      "code": "event",
+      "valueCode": "S23"
+    }, {
+      "code": "event",
+      "valueCode": "S24"
+    }, {
+      "code": "event",
+      "valueCode": "S26"
+    } ]
+  }, {
+    "code": "SPQ",
+    "display": "Stored procedure request",
+    "definition": "Stored procedure request",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "Q08"
+    } ]
+  }, {
+    "code": "SQM",
+    "display": "Schedule query",
+    "definition": "Schedule query",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "S25"
+    } ]
+  }, {
+    "code": "SQR",
+    "display": "Schedule query response",
+    "definition": "Schedule query response",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "S25"
+    } ]
+  }, {
+    "code": "SRM",
+    "display": "Schedule request",
+    "definition": "Schedule request",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "S01"
+    }, {
+      "code": "event",
+      "valueCode": "S02"
+    }, {
+      "code": "event",
+      "valueCode": "S03"
+    }, {
+      "code": "event",
+      "valueCode": "S04"
+    }, {
+      "code": "event",
+      "valueCode": "S05"
+    }, {
+      "code": "event",
+      "valueCode": "S06"
+    }, {
+      "code": "event",
+      "valueCode": "S07"
+    }, {
+      "code": "event",
+      "valueCode": "S08"
+    }, {
+      "code": "event",
+      "valueCode": "S09"
+    }, {
+      "code": "event",
+      "valueCode": "S10"
+    }, {
+      "code": "event",
+      "valueCode": "S11"
+    } ]
+  }, {
+    "code": "SRR",
+    "display": "Scheduled request response",
+    "definition": "Scheduled request response",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "S01"
+    }, {
+      "code": "event",
+      "valueCode": "S02"
+    }, {
+      "code": "event",
+      "valueCode": "S03"
+    }, {
+      "code": "event",
+      "valueCode": "S04"
+    }, {
+      "code": "event",
+      "valueCode": "S05"
+    }, {
+      "code": "event",
+      "valueCode": "S06"
+    }, {
+      "code": "event",
+      "valueCode": "S07"
+    }, {
+      "code": "event",
+      "valueCode": "S08"
+    }, {
+      "code": "event",
+      "valueCode": "S09"
+    }, {
+      "code": "event",
+      "valueCode": "S10"
+    }, {
+      "code": "event",
+      "valueCode": "S11"
+    } ]
+  }, {
+    "code": "SUR",
+    "display": "Summary product experience report",
+    "definition": "Summary product experience report",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    }, {
+      "code": "event",
+      "valueCode": "P09"
+    } ]
+  }, {
+    "code": "TBR",
+    "display": "Tabular data response",
+    "definition": "Tabular data response",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "R08"
+    } ]
+  }, {
+    "code": "UDM",
+    "display": "Unsolicited display message",
+    "definition": "Unsolicited display message",
+    "designation": [ {
+      "language": "de",
+      "value": "Nicht angeforderte Nachricht im Anzeigeformat"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    }, {
+      "code": "event",
+      "valueCode": "Q05"
+    } ]
+  }, {
+    "code": "VQQ",
+    "display": "Virtual table query",
+    "definition": "Virtual table query",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "Q07"
+    } ]
+  }, {
+    "code": "VXQ",
+    "display": "Query for vaccination record",
+    "definition": "Query for vaccination record",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "V01"
+    } ]
+  }, {
+    "code": "VXR",
+    "display": "Vaccination query record response",
+    "definition": "Vaccination query record response",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "V03"
+    } ]
+  }, {
+    "code": "VXU",
+    "display": "Unsolicited vaccination record update",
+    "definition": "Unsolicited vaccination record update",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "V04"
+    } ]
+  }, {
+    "code": "VXX",
+    "display": "Vaccination query response with multiple PID matches",
+    "definition": "Vaccination query response with multiple PID matches",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    }, {
+      "code": "event",
+      "valueCode": "V02"
+    } ]
+  } ]
+}

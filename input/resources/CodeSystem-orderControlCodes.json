@@ -1,0 +1,599 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "orderControlCodes",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-orderControlCodes.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/orderControlCodes</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.3.1"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0119"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/orderControlCodes",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.48"
+  } ],
+  "version": "1.3.0",
+  "name": "OrderControlCodes",
+  "title": "Order Control Codes (2.3.1 - 1.3.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7-defined code system of concepts which are used to determine the function of the order segment.  Depending on the message, the action specified by one of these control codes may refer to an order or an individual service.  Used in Version 2.x messaging of orders in the ORC segment.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  }, {
+    "code": "application",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#application",
+    "description": "application",
+    "type": "string"
+  } ],
+  "concept": [ {
+    "code": "AF",
+    "display": "Order refill request approval (O02)",
+    "definition": "Order refill request approval (O02)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "CA",
+    "display": "Cancel order request (O01)",
+    "definition": "Cancel order request (O01)",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftrag stornieren"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "CH",
+    "display": "Child order (O01/ORU)",
+    "definition": "Child order (O01/ORU)",
+    "designation": [ {
+      "language": "de",
+      "value": "nachgeordneter Auftrag"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "CN",
+    "display": "Combined result (R01)",
+    "definition": "Combined result (R01)",
+    "designation": [ {
+      "language": "de",
+      "value": "Kumulatives Ergebnis (zu mehreren Aufträgen)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "CR",
+    "display": "Canceled as requested (O02)",
+    "definition": "Canceled as requested (O02)",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftrag anweisungsgemäß storniert"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "DC",
+    "display": "Discontinue order request (O01)",
+    "definition": "Discontinue order request (O01)",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftragsausführung abbrechen"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "DE",
+    "display": "Data errors (O01/O02)",
+    "definition": "Data errors (O01/O02)",
+    "designation": [ {
+      "language": "de",
+      "value": "Datenfehler"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "DF",
+    "display": "Order refill request denied (O02)",
+    "definition": "Order refill request denied (O02)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "DR",
+    "display": "Discontinued as requested (O02)",
+    "definition": "Discontinued as requested (O02)",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftragsausführung anweisungsgemäß abgebrochen"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "FU",
+    "display": "Order refilled, unsolicited (O01)",
+    "definition": "Order refilled, unsolicited (O01)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "HD",
+    "display": "Hold order request (O01)",
+    "definition": "Hold order request (O01)",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftragsbearbeitung aussetzen"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "HR",
+    "display": "On hold as requested (O02)",
+    "definition": "On hold as requested (O02)",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftragsbearbeitung anweisungsgemäß ausgesetzt"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "LI",
+    "display": "Link order to patient care problem or goal",
+    "definition": "Link order to patient care problem or goal",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "NA",
+    "display": "Number assigned (O02)",
+    "definition": "Number assigned (O02)",
+    "designation": [ {
+      "language": "de",
+      "value": "Nummer zugewiesen"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "NW",
+    "display": "New order (O01)",
+    "definition": "New order (O01)",
+    "designation": [ {
+      "language": "de",
+      "value": "Neuer Auftrag"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "OC",
+    "display": "Order canceled (O01)",
+    "definition": "Order canceled (O01)",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftrag storniert"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "OD",
+    "display": "Order discontinued (O01)",
+    "definition": "Order discontinued (O01)",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftragsausführung abgebrochen"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "OE",
+    "display": "Order released (O01)",
+    "definition": "Order released (O01)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "OF",
+    "display": "Order refilled as requested (O02)",
+    "definition": "Order refilled as requested (O02)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "OH",
+    "display": "Order held (O01)",
+    "definition": "Order held (O01)",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftragsbearbeitung ausgesetzt"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "OK",
+    "display": "Order accepted & OK (O02)",
+    "definition": "Order accepted & OK (O02)",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftrag akzeptiert"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "OR",
+    "display": "Released as requested",
+    "definition": "Released as requested",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftragsbearbeitung anweisungsgemäß wiederaufgenommen"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "PA",
+    "display": "Parent order (O01/ORU)",
+    "definition": "Parent order (O01/ORU)",
+    "designation": [ {
+      "language": "de",
+      "value": "Hauptauftrag"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "RE",
+    "display": "Observations to follow (O01/R01)",
+    "definition": "Observations to follow (O01/R01)",
+    "designation": [ {
+      "language": "de",
+      "value": "Untersuchungsergebnisse folgen (in späteren Segmenten dieser Nachricht)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "RF",
+    "display": "Refill order request (O01)",
+    "definition": "Refill order request (O01)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "RL",
+    "display": "Release previous hold (O01)",
+    "definition": "Release previous hold (O01)",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftragsberabeitung wiederaufnehmen"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RO",
+    "display": "Replacement order (O01)",
+    "definition": "Replacement order (O01)",
+    "designation": [ {
+      "language": "de",
+      "value": "Ersatzauftrag"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "RP",
+    "display": "Order replace request (O01)",
+    "definition": "Order replace request (O01)",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftrag ersetzen"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "RQ",
+    "display": "Replaced as requested (O02)",
+    "definition": "Replaced as requested (O02)",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftrag anweisungsgemäß ersetzt"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "RR",
+    "display": "Request received (O02)",
+    "definition": "Request received (O02)",
+    "designation": [ {
+      "language": "de",
+      "value": "Anforderung erhalten"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "RU",
+    "display": "Replaced unsolicited (O01)",
+    "definition": "Replaced unsolicited (O01)",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftrag ersetzt (ohne Anweisung)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "SC",
+    "display": "Status changed (O01)",
+    "definition": "Status changed (O01)",
+    "designation": [ {
+      "language": "de",
+      "value": "Statusänderung"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "SN",
+    "display": "Send order number (O01)",
+    "definition": "Send order number (O01)",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftrags- bzw. Bearbeitungsnummer zuweisen / übermitteln"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "SR",
+    "display": "Response to send order status request (O02(Q06)",
+    "definition": "Response to send order status request (O02(Q06)",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftragsstatus (Antwort)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "SS",
+    "display": "Send order status request (O01)",
+    "definition": "Send order status request (O01)",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftragsstatus senden"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "UA",
+    "display": "Unable to accept order (O02/ORR)",
+    "definition": "Unable to accept order (O02/ORR)",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftragsannahme nicht möglich"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "UC",
+    "display": "Unable to cancel (O02)",
+    "definition": "Unable to cancel (O02)",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftragsstornierung nicht möglich"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "UD",
+    "display": "Unable to discontinue (O02)",
+    "definition": "Unable to discontinue (O02)",
+    "designation": [ {
+      "language": "de",
+      "value": "Abbrechen nicht möglich"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "UF",
+    "display": "Unable to refill (O02)",
+    "definition": "Unable to refill (O02)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "UH",
+    "display": "Unable to put on hold (O02)",
+    "definition": "Unable to put on hold (O02)",
+    "designation": [ {
+      "language": "de",
+      "value": "Aussetzen nicht möglich"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "UM",
+    "display": "Unable to replace (O02)",
+    "definition": "Unable to replace (O02)",
+    "designation": [ {
+      "language": "de",
+      "value": "Ersetzen nicht möglich"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "UN",
+    "display": "Unlink order from patient care problem or goal",
+    "definition": "Unlink order from patient care problem or goal",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "UR",
+    "display": "Unable to release (O02)",
+    "definition": "Unable to release (O02)",
+    "designation": [ {
+      "language": "de",
+      "value": "Wiederaufnahme nicht möglich"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "UX",
+    "display": "Unable to change (O02)",
+    "definition": "Unable to change (O02)",
+    "designation": [ {
+      "language": "de",
+      "value": "Änderung nicht möglich"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "XO",
+    "display": "Change order request (O01)",
+    "definition": "Change order request (O01)",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftrag ändern"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "XR",
+    "display": "Changed as requested (O02)",
+    "definition": "Changed as requested (O02)",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftrag anweisungsgemäß geändert"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "XX",
+    "display": "Order changed, unsol. (O01)",
+    "definition": "Order changed, unsol. (O01)",
+    "designation": [ {
+      "language": "de",
+      "value": "Auftrag geändert (ohne Anweisung)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  } ]
+}

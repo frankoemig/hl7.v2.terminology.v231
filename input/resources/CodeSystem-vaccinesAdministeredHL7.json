@@ -1,0 +1,802 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "vaccinesAdministeredHL7",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-vaccinesAdministeredHL7.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/vaccinesAdministeredHL7</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.3.1"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0292"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/vaccinesAdministeredHL7",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.182"
+  } ],
+  "version": "1.1.0",
+  "name": "VaccinesAdministeredHL7",
+  "title": "Vaccines Administered (2.3.1 - 1.1.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "Code system of codes specifying the administered vaccines, and used only in HL7 releases 2.3, 2.3.1, and 2.4 of the standard.  This code system was superceded when  the US Centers of Disease Control began publishing the codes directly; the code system to be used now is 2.16.840.1.113883.12.292 PH_VaccinesAdministeredCVX_CDC_NIP.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "code": "01",
+    "display": "DTP",
+    "definition": "DTP",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "02",
+    "display": "OPV",
+    "definition": "OPV",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "03",
+    "display": "MMR",
+    "definition": "MMR",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "04",
+    "display": "M/R",
+    "definition": "M/R",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "05",
+    "display": "Measles",
+    "definition": "Measles",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "06",
+    "display": "Rubella",
+    "definition": "Rubella",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "07",
+    "display": "Mumps",
+    "definition": "Mumps",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "08",
+    "display": "Hep B, adolescent or pediatric",
+    "definition": "Hep B, adolescent or pediatric",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "09",
+    "display": "Td (Adult)",
+    "definition": "Td (Adult)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "10",
+    "display": "IPV",
+    "definition": "IPV",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "11",
+    "display": "Pertussis",
+    "definition": "Pertussis",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "12",
+    "display": "Diphtheria antitoxin",
+    "definition": "Diphtheria antitoxin",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "13",
+    "display": "TIG",
+    "definition": "TIG",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "14",
+    "display": "IG, NOS",
+    "definition": "IG, NOS",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "15",
+    "display": "Influenza—split (incl. purified surface antigen)",
+    "definition": "Influenza—split (incl. purified surface antigen)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "16",
+    "display": "Influenza—whole",
+    "definition": "Influenza—whole",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "17",
+    "display": "Hib,  NOS",
+    "definition": "Hib,  NOS",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "18",
+    "display": "Rabies, intramuscular injection",
+    "definition": "Rabies, intramuscular injection",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "19",
+    "display": "BCG",
+    "definition": "BCG",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "20",
+    "display": "DTaP",
+    "definition": "DTaP",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "21",
+    "display": "Varicella",
+    "definition": "Varicella",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "22",
+    "display": "DTP-Hib",
+    "definition": "DTP-Hib",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "23",
+    "display": "Plague",
+    "definition": "Plague",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "24",
+    "display": "Anthrax",
+    "definition": "Anthrax",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "25",
+    "display": "Typhoid—oral",
+    "definition": "Typhoid—oral",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "26",
+    "display": "Cholera",
+    "definition": "Cholera",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "27",
+    "display": "Botulinum antitoxin",
+    "definition": "Botulinum antitoxin",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "28",
+    "display": "DT(pediatric)",
+    "definition": "DT(pediatric)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "29",
+    "display": "CMVIG",
+    "definition": "CMVIG",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "30",
+    "display": "HBIG",
+    "definition": "HBIG",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "31",
+    "display": "Hep A, pediatric, NOS",
+    "definition": "Hep A, pediatric, NOS",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "32",
+    "display": "Meningococcal",
+    "definition": "Meningococcal",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "33",
+    "display": "Pneumococcal",
+    "definition": "Pneumococcal",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "34",
+    "display": "RIG",
+    "definition": "RIG",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "35",
+    "display": "Tetanus toxoid",
+    "definition": "Tetanus toxoid",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "36",
+    "display": "VZIG",
+    "definition": "VZIG",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "37",
+    "display": "Yellow fever",
+    "definition": "Yellow fever",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "38",
+    "display": "Rubella/Mumps",
+    "definition": "Rubella/Mumps",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "39",
+    "display": "Japanese encephalitis",
+    "definition": "Japanese encephalitis",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "40",
+    "display": "Rabies, intradermal injection",
+    "definition": "Rabies, intradermal injection",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "41",
+    "display": "Typhoid-parenteral",
+    "definition": "Typhoid-parenteral",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "42",
+    "display": "Hep B, adolescent/high risk infant",
+    "definition": "Hep B, adolescent/high risk infant",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "43",
+    "display": "Hep B, adult",
+    "definition": "Hep B, adult",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "44",
+    "display": "Hep B, dialysis",
+    "definition": "Hep B, dialysis",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "45",
+    "display": "Hep B,  NOS",
+    "definition": "Hep B,  NOS",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "46",
+    "display": "Hib (PRP-D)",
+    "definition": "Hib (PRP-D)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "47",
+    "display": "Hib (HbOC)",
+    "definition": "Hib (HbOC)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "48",
+    "display": "Hib (PRP-T)",
+    "definition": "Hib (PRP-T)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "49",
+    "display": "Hib (PRP-OMP)",
+    "definition": "Hib (PRP-OMP)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "50",
+    "display": "DtaP-Hib",
+    "definition": "DtaP-Hib",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "51",
+    "display": "Hib-Hep B",
+    "definition": "Hib-Hep B",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "52",
+    "display": "Hep A - adult",
+    "definition": "Hep A - adult",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "53",
+    "display": "Typhoid, parenteral, AKD (U.S. military)",
+    "definition": "Typhoid, parenteral, AKD (U.S. military)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "54",
+    "display": "Adenovirus, type 4",
+    "definition": "Adenovirus, type 4",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "55",
+    "display": "Adenovirus, type 7",
+    "definition": "Adenovirus, type 7",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "56",
+    "display": "Dengue fever",
+    "definition": "Dengue fever",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "57",
+    "display": "Hantavirus",
+    "definition": "Hantavirus",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "58",
+    "display": "Hep C",
+    "definition": "Hep C",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "59",
+    "display": "Hep E",
+    "definition": "Hep E",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "60",
+    "display": "Herpes simplex 2",
+    "definition": "Herpes simplex 2",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "61",
+    "display": "HIV",
+    "definition": "HIV",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "62",
+    "display": "HPV",
+    "definition": "HPV",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "63",
+    "display": "Junin virus",
+    "definition": "Junin virus",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "64",
+    "display": "Leishmaniasis",
+    "definition": "Leishmaniasis",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "65",
+    "display": "Leprosy",
+    "definition": "Leprosy",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "66",
+    "display": "Lyme disease",
+    "definition": "Lyme disease",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "67",
+    "display": "malaria",
+    "definition": "malaria",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "68",
+    "display": "Melanoma",
+    "definition": "Melanoma",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "69",
+    "display": "Parainfluenza-3",
+    "definition": "Parainfluenza-3",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "70",
+    "display": "Q fever",
+    "definition": "Q fever",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "71",
+    "display": "RSV-IGIV",
+    "definition": "RSV-IGIV",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "72",
+    "display": "Rheumatic fever",
+    "definition": "Rheumatic fever",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "73",
+    "display": "Rift Valley fever",
+    "definition": "Rift Valley fever",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "74",
+    "display": "Rotavirus",
+    "definition": "Rotavirus",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "75",
+    "display": "Smallpox",
+    "definition": "Smallpox",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "76",
+    "display": "Staphylococcus bacterio lysate",
+    "definition": "Staphylococcus bacterio lysate",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "77",
+    "display": "Tick-borne encephalitis",
+    "definition": "Tick-borne encephalitis",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "78",
+    "display": "Tularemia vaccine",
+    "definition": "Tularemia vaccine",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "79",
+    "display": "Vaccinia immune globulin",
+    "definition": "Vaccinia immune globulin",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "80",
+    "display": "VEE, live",
+    "definition": "VEE, live",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "81",
+    "display": "VEE, inactivated",
+    "definition": "VEE, inactivated",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "82",
+    "display": "Adenovirus, NOS",
+    "definition": "Adenovirus, NOS",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "83",
+    "display": "Hep A, ped/adol, 2 dose",
+    "definition": "Hep A, ped/adol, 2 dose",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "84",
+    "display": "Hep A, ped/adol, 3 dose",
+    "definition": "Hep A, ped/adol, 3 dose",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "85",
+    "display": "Hep A, NOS",
+    "definition": "Hep A, NOS",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "86",
+    "display": "IG",
+    "definition": "IG",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "87",
+    "display": "IGIV",
+    "definition": "IGIV",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "88",
+    "display": "Influenza, NOS",
+    "definition": "Influenza, NOS",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "89",
+    "display": "polio, NOS",
+    "definition": "Polio, NOS",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "90",
+    "display": "Rabies, NOS",
+    "definition": "Rabies, NOS",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "91",
+    "display": "typhoid, NOS",
+    "definition": "Typhoid, NOS",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "92",
+    "display": "VEE, NOS",
+    "definition": "VEE, NOS",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  } ]
+}
